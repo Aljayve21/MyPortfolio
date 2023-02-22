@@ -45,9 +45,11 @@ ul {
 /*nav menu*/
 .nav {
     width: 100%;
-    height: 100%;
+    height: 35%;
     position: fixed;
     overflow: hidden;
+    background-color: #D6D6D6;
+    box-shadow: 1px 1px 1px;
 }
 
 .menu a {
@@ -62,6 +64,7 @@ ul {
 
 .menu a:hover {
     background-color: #7C3F00;
+    padding: 15px;
     color: #FFFFFF;
 }
 
@@ -132,7 +135,7 @@ ul {
 /* row 1 content */
 
 .avatar {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     display: flex;
     justify-content: center;
     padding: 20px;
@@ -147,15 +150,16 @@ ul {
 /*row 2 content*/
 
 .description {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     padding-left: auto;
     padding-right: auto;
     padding-top: auto;
     padding-bottom: 25px;
+    /* display: contents; */
 }
 
 .box {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     margin: 1px 1px;
     display: block;
     align-items: center;
@@ -167,6 +171,10 @@ ul {
     margin: 14px 59px 16px 59px;
     box-shadow: -5px 7px #85888C;
     background-color: #FFFFFF;
+    
+    /* width: 100%;
+    max-width: 10px; */
+    /* display: contents; */
 }
 
 #callblue {
@@ -192,9 +200,69 @@ hr {
     
     transform: translateX(54%);
     width: 50%;
+    display: block;
 }
 
+/* .facebook {
+    height: 10%;
+    width: 10%;
+    position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-163%);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+
+} */
+
 .facebook {
+    background-color: #1c4ae2;
+    color: #FFFFFF;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 4px 3px #36383F;
+    margin-bottom: 16px;
+}
+
+.facebook1 {
+    text-decoration: none;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.linkin {
+    background-color: #FFFFFF;
+    color: #492201;
+    /* border: none; */
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 4px 3px #36383F;
+    margin-bottom: 16px;
+}
+
+.link1 {
+    font-weight: bold;
+    text-decoration: none;
+    color:#36383F;
+}
+
+footer {
+    /* border: 1px solid blue; */
+    width: 100%;
+    /* display: flex;
+    justify-content: space-around; */
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    /* width: 50%; */
+    gap: 28px;
+}
+/* .linkin {
     height: 10%;
     width: 10%;
     position: relative;
@@ -202,10 +270,10 @@ hr {
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
-    padding-top: 15px;
-    padding-bottom: 15px;
-    color: blue;
-}
+    padding-left: 15px;
+    padding-right: 15px;
+   
+} */
 
 /* RESPONSIVENESS */
 @media (min-width: 768px) {
@@ -215,7 +283,7 @@ hr {
         position: relative;
         float: right;
         width: fit-content;
-        background-color: transparent;
+        /* background-color: transparent; */
     }
 
     .menu li {
@@ -237,6 +305,8 @@ hr {
         margin: 0%;
         padding-top: 30%;
         padding-bottom: 14%;
+        /* display: contents;
+        justify-content: center; */
     }
     .avatar::after .description::after {
         padding: 20px;
@@ -251,7 +321,8 @@ hr {
     .blue {
         background-color: #FFFFFF;
         /* border: 1px solid blue; */
-        margin: 14px 230px 16px 230px;
-        
+        margin: 14px 230px 16px 15%;
+        /* display: contents; */
+        width: 69%;
     }
 }
