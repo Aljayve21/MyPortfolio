@@ -160,6 +160,7 @@ ul {
 
 .box {
     /* border: 1px solid green; */
+
     margin: 1px 1px;
     display: block;
     align-items: center;
@@ -193,14 +194,25 @@ h2, strong, p {
     display: flex;
     justify-content: center;
     padding-bottom: 1px;
-    
+    color: #723605;
+
 }
 
-hr {
+/* hr {
     
     transform: translateX(54%);
     width: 50%;
     display: block;
+    background-color: #492201;
+} */
+
+.color-line  {
+    /* transform: translateX(54%); */
+    width: 50%;
+    display: flex;
+    margin: auto;
+    background-color: #492201;
+    padding: 1px;
 }
 
 /* .facebook {
