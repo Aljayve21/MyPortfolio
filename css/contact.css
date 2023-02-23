@@ -351,9 +351,8 @@ footer {
 
     .avatar {
         display: flex;
-    justify-content: center;
-    padding: 258px;
-    justify-content: flex-start;
+        justify-content: center;
+        padding: 20px;
     }
     .blue {
         background-color: #FFFFFF;
@@ -368,6 +367,10 @@ footer {
     }
 
     .avat1 {
+        display: none;
+    }
+
+    .gren {
         display: none;
     }
 }
