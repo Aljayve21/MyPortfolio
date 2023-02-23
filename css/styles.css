@@ -133,14 +133,31 @@ ul {
 
 
 /* row 1 content */
+.avatar1 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
 
 .avatar {
     /* border: 1px solid green; */
     display: flex;
     justify-content: center;
     padding: 20px;
+    display: none;
 }
 .avat {
+    
+    height: 50%;
+    width: 50%;
+    border-radius: 1px 1px 1px 110px;
+    box-shadow: 20px -19px #85888C;
+    display: none;
+}
+
+.avat1 {
+    margin-top: 8%;
+    display: absolute;
     height: 50%;
     width: 50%;
     border-radius: 1px 1px 1px 110px;
@@ -254,9 +271,30 @@ span {
     }
 
     .avatar {
-        display: inline;
+        /* display: inline;
         float: right;
-        padding-left: 1px;
+        padding-left: 1px; */
+        display: flex;
+    justify-content: center;
+    padding: 20px;
+    }
+
+    .avat {
+        
+        display: block;
+        height: 50%;
+    width: 50%;
+    border-radius: 1px 1px 1px 110px;
+    box-shadow: 20px -19px #85888C;
+    }
+
+    .avatar1 {
+        display: none;
+    }
+
+
+    .avat1{
+        display: none;
     }
 
     .description {
