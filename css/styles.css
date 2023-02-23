@@ -175,7 +175,7 @@ ul {
 }
 
 h5, h1, h2 {
-    padding-left: 24%;
+    padding-left: 18%;
     padding-right: 10%;
     align-items: center;
     text-shadow: 4px 3px rgba(0, 0, 0, 0.2);
@@ -197,7 +197,7 @@ h2 {
 
 p {
     color: #8A551F;
-    padding-left: 24%;
+    padding-left: 18%;
     padding-right: 10%;
     align-items: center;
 }
