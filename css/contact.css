@@ -139,8 +139,23 @@ ul {
     display: flex;
     justify-content: center;
     padding: 20px;
+    display: none;
 }
 .avat {
+    height: 50%;
+    width: 50%;
+    border-radius: 1px 1px 1px 110px;
+    box-shadow: 20px -19px #85888C;
+    display: none;
+}
+
+.avatar1 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.avat1  {
     height: 50%;
     width: 50%;
     border-radius: 1px 1px 1px 110px;
@@ -197,6 +212,7 @@ h2, strong, p {
     color: #723605;
 
 }
+
 
 /* hr {
     
@@ -323,12 +339,21 @@ footer {
     .avatar::after .description::after {
         padding: 20px;
         align-items: center;
+        display: block;
     }
 
     .avat {
         height: 50%;
         margin: 28%;
         object-fit: cover;
+        display: block;
+    }
+
+    .avatar {
+        display: flex;
+    justify-content: center;
+    padding: 258px;
+    justify-content: flex-start;
     }
     .blue {
         background-color: #FFFFFF;
@@ -336,5 +361,13 @@ footer {
         margin: 14px 230px 16px 15%;
         /* display: contents; */
         width: 69%;
+    }
+
+    .avatar1  {
+        display: none;
+    }
+
+    .avat1 {
+        display: none;
     }
 }
